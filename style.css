@@ -1,70 +1,146 @@
- .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+ /*.attribution { font-size: 11px; text-align: center; }*/
+ /*   .attribution a { color: hsl(228, 45%, 44%); }*/
 
-div .logo_head {
-	float: left;
-	position: absolute;
-	top: 70px;
-	left: 150px;
+
+ /*ALWAYS INCLUDE THIS ON EVERY TSYLING ON YOUR WEB*/
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-div .h1_text {
-	position: absolute;
-	top: 170px;
-	left: 150px;
-	font-family: serif;
-	font-size: 38px;
-	letter-spacing: 5px;
-}
+	body{
+		background-image: url("images/bg-pattern-desktop.svg");
+		background-position: left;
+		height: 100vh;
+		background-repeat: repeat;
+		overflow-y: hidden;
+	}
 
- .h1_text span {
-	color: #eed4d3;
-}
+	nav{
+		padding: 35px 190px;
+	}
 
-#main_dv p {
-	position: absolute;
-	top: 325px;
-	left: 150px;
-	font-family: cursive;
-	color: #eed4d3;
-	font-size: 15px;
-}
+	/*TRY TO READ UP ON FLEX*/
 
-.form_class {
-/**	position: absolute; **/
-	left: 400px;
+	.content{
+		display: flex;
+		justify-content: space-between;
+	}
 
-	background-color: transparent;
-	color: #eed4d3;
-}
-input {
-	position: absolute;
-	margin-left: 140px;
-	outline: none;
-	top: 450px;
-	border-radius: 20px;
-	width: 400px;
-	height: 35px;
-	background-color: transparent;
-	padding-left: 20px;
-	color: #eed4d3;
-}
-.btn {
-	position: absolute;
-	left: 50px;
-	top: 450px;
-	margin-left: 450px;
-	background-color: lightpink;
-	border: none;
-	width: 80px;
-	border-radius: 20px;
-	height: 40px;
-}
+	.words{
+		padding: 100px 190px;
+	}
+	.header{
+		letter-spacing: 20px;
+		line-height: 1.8;
+	}
+	.paragraph{
+		line-height: 1.7;
+		margin-top: 35px;
+		font-size: 18px;
+	}
 
-.hero_flex {
-	float: right;
+	.hero{
+margin-top: -100px;
+		height: 100vh;
+	}
 
-}
+
+	.form{
+		margin-top: 30px;
+		display: flex;
+	}
+
+	input{
+		border-radius: 100px;
+		outline: none;
+		border: 1px solid #bdbdbd;
+		padding: 15px 20px;
+		width: 70%;
+	}
+
+	.btn{
+		border-radius: 100px;
+		width: 25%;
+		position: relative;
+		right: 70px;
+		border: none;
+		background-color: lightpink;
+		padding: 14px 20px;
+
+	}
+/*	div .main_div{*/
+
+/*	}*/
+/*div .logo_head {*/
+/*	float: left;*/
+/*	position: absolute;*/
+/*	top: 70px;*/
+/*	left: 150px;*/
+/*}*/
+
+/*div .h1_text {*/
+/*	position: absolute;*/
+/*	top: 170px;*/
+/*	left: 150px;*/
+/*	font-family: serif;*/
+/*	font-size: 38px;*/
+/*	letter-spacing: 5px;*/
+/*}*/
+
+/* .h1_text span {*/
+/*	color: #eed4d3;*/
+/*}*/
+
+/*#main_dv p {*/
+/*	position: absolute;*/
+/*	top: 325px;*/
+/*	left: 150px;*/
+/*	font-family: cursive;*/
+/*	color: #eed4d3;*/
+/*	font-size: 15px;*/
+/*}*/
+
+/*.form_class {*/
+/*!**	position: absolute; **!*/
+/*	left: 400px;*/
+
+/*	background-color: transparent;*/
+/*	color: #eed4d3;*/
+/*}*/
+/*input {*/
+/*	position: absolute;*/
+/*	margin-left: 140px;*/
+/*	outline: none;*/
+/*	top: 450px;*/
+/*	border-radius: 20px;*/
+/*	width: 400px;*/
+/*	height: 35px;*/
+/*	background-color: transparent;*/
+/*	padding-left: 20px;*/
+/*	color: #eed4d3;*/
+/*}*/
+/*.btn {*/
+/*	position: absolute;*/
+/*	left: 50px;*/
+/*	top: 450px;*/
+/*	margin-left: 450px;*/
+/*	background-color: lightpink;*/
+/*	border: none;*/
+/*	width: 80px;*/
+/*	border-radius: 20px;*/
+/*	height: 40px;*/
+/*}*/
+
+/*.hero_flex {*/
+/*	float: right;*/
+
+/*}*/
+
+ /*YOU CAN TRY TO WORK ON THE RESPONSIVENESS YOURSELF*/
 @media screen and (max-width: 500px){
 
 }
